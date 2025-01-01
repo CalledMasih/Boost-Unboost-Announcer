@@ -1,8 +1,8 @@
 /* 
 Advanced Boost Announce System in Discord.js V14
-Hope you Enjoy, Made with 🤍 by Masih#0258
-Github: https://github.com/Masihdeveloper | Don't forget to star the repositories.
-Website: https://masihdev.ir/
+Hope you Enjoy, Made with 🤍 by CalledMasih
+Github: https://github.com/calledmasih | Don't forget to star the repositories.
+Website: https://calledmasih.ir/
 Copyright Masih 2024 All Right Reserved!
 */
 require("./errorHandlers");
@@ -118,7 +118,7 @@ client.on("guildMemberUpdate", async (oldMember, newMember) => {
       })
       .catch((err) => {
         console.error(
-          `An error ocurred while sending DM to new booster:\n-> ${chalk.red(
+          `An error occurred while sending DM to new booster:\n-> ${chalk.red(
             err
           )}`
         );
@@ -204,7 +204,7 @@ client.on("guildMemberUpdate", async (oldMember, newMember) => {
       })
       .catch((err) => {
         console.error(
-          `An error ocurred while sending DM to the member who has unboost the server:\n-> ${chalk.red(
+          `An error occurred while sending DM to the member who has unboost the server:\n-> ${chalk.red(
             err
           )}`
         );
@@ -318,13 +318,11 @@ client.on("ready", () => {
   console.log(
     chalk.green(`Successfully logged in as ${chalk.bold(client.user.tag)}`),
     chalk.bold("\nGitHub Repository:"),
-    chalk.blueBright(
-      "https://github.com/Masihdeveloper/Boost-Unboost-Announcer"
-    ),
+    chalk.blueBright("https://github.com/CalledMasih/Boost-Unboost-Announcer"),
     "- If is useful please don't forget to",
     chalk.yellowBright("star⭐"),
     chalk.bold("\nWebsite:"),
-    chalk.blueBright("https://masihdev.ir")
+    chalk.blueBright("https://calledmasih.ir")
   );
 });
 // Logs in to your client by it's token
@@ -333,5 +331,5 @@ client.login(config.botToken);
 /*
 ❓ Don't forget to filled out "config.json" file by your information and check the "README.md" file!
 All of the methods have been carefully tested and without any bugs.
-If you have any issues while using this source, feel free to contact me thorough my social media which is @Masihdeveloper
+If you have any issues while using this source, feel free to contact me thorough my social media which is @CalledMasih
 */
