@@ -7,10 +7,10 @@
     "start": "node index.js"
   },
   "name": "boost-unboost-announcer",
-  "description": "Boost Announcer Discord Bot",
+  "description": "Multi-purpose Discord Server Boost and Unboost Announcer bot",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Masihdeveloper/Boost-Unboost-Announcer",
-  "author": "Masihdeveloper",
+  "repository": "https://github.com/CalledMasih/Boost-Unboost-Announcer",
+  "author": "CalledMasih",
   "license": "MIT"
 }
